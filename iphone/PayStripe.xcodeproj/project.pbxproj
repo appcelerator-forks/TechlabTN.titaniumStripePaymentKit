@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* ComPayStripeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComPayStripeModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComPayStripeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComPayStripeModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComPayStripeModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComPayStripeModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComPayStripeModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComPayStripeModuleAssets.m */; };
+		9D0815641A72323700FE7162 /* PTKAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08153A1A72323700FE7162 /* PTKAddressZip.h */; };
+		9D0815651A72323700FE7162 /* PTKAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08153B1A72323700FE7162 /* PTKAddressZip.m */; };
+		9D0815661A72323700FE7162 /* PTKCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08153C1A72323700FE7162 /* PTKCard.h */; };
+		9D0815671A72323700FE7162 /* PTKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08153D1A72323700FE7162 /* PTKCard.m */; };
+		9D0815681A72323700FE7162 /* PTKCardCVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08153E1A72323700FE7162 /* PTKCardCVC.h */; };
+		9D0815691A72323700FE7162 /* PTKCardCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08153F1A72323700FE7162 /* PTKCardCVC.m */; };
+		9D08156A1A72323700FE7162 /* PTKCardExpiry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815401A72323700FE7162 /* PTKCardExpiry.h */; };
+		9D08156B1A72323700FE7162 /* PTKCardExpiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815411A72323700FE7162 /* PTKCardExpiry.m */; };
+		9D08156C1A72323700FE7162 /* PTKCardNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815421A72323700FE7162 /* PTKCardNumber.h */; };
+		9D08156D1A72323700FE7162 /* PTKCardNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815431A72323700FE7162 /* PTKCardNumber.m */; };
+		9D08156E1A72323700FE7162 /* PTKCardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815441A72323700FE7162 /* PTKCardType.h */; };
+		9D08156F1A72323700FE7162 /* PTKComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815451A72323700FE7162 /* PTKComponent.h */; };
+		9D0815701A72323700FE7162 /* PTKComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815461A72323700FE7162 /* PTKComponent.m */; };
+		9D0815711A72323700FE7162 /* PTKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815471A72323700FE7162 /* PTKTextField.h */; };
+		9D0815721A72323700FE7162 /* PTKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815481A72323700FE7162 /* PTKTextField.m */; };
+		9D0815731A72323700FE7162 /* PTKUSAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815491A72323700FE7162 /* PTKUSAddressZip.h */; };
+		9D0815741A72323700FE7162 /* PTKUSAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08154A1A72323700FE7162 /* PTKUSAddressZip.m */; };
+		9D0815751A72323700FE7162 /* PTKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08154B1A72323700FE7162 /* PTKView.h */; };
+		9D0815761A72323700FE7162 /* PTKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08154C1A72323700FE7162 /* PTKView.m */; };
+		9D0815791A72333100FE7162 /* ComPayStripeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815781A72333100FE7162 /* ComPayStripeView.m */; };
+		9D08157B1A7233F500FE7162 /* ComPayStripeViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08157A1A7233F500FE7162 /* ComPayStripeViewProxy.h */; };
+		9D08157D1A72347600FE7162 /* ComPayStripeViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08157C1A72347600FE7162 /* ComPayStripeViewProxy.m */; };
+		AA747D9F0F9514B9006C5449 /* ComPayStripe_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComPayStripe_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = PayStripe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* ComPayStripeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPayStripeModule.h; path = Classes/ComPayStripeModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComPayStripeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPayStripeModule.m; path = Classes/ComPayStripeModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComPayStripeModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPayStripeModuleAssets.h; path = Classes/ComPayStripeModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComPayStripeModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPayStripeModuleAssets.m; path = Classes/ComPayStripeModuleAssets.m; sourceTree = "<group>"; };
+		9D08153A1A72323700FE7162 /* PTKAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKAddressZip.h; sourceTree = "<group>"; };
+		9D08153B1A72323700FE7162 /* PTKAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKAddressZip.m; sourceTree = "<group>"; };
+		9D08153C1A72323700FE7162 /* PTKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCard.h; sourceTree = "<group>"; };
+		9D08153D1A72323700FE7162 /* PTKCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCard.m; sourceTree = "<group>"; };
+		9D08153E1A72323700FE7162 /* PTKCardCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardCVC.h; sourceTree = "<group>"; };
+		9D08153F1A72323700FE7162 /* PTKCardCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardCVC.m; sourceTree = "<group>"; };
+		9D0815401A72323700FE7162 /* PTKCardExpiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardExpiry.h; sourceTree = "<group>"; };
+		9D0815411A72323700FE7162 /* PTKCardExpiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardExpiry.m; sourceTree = "<group>"; };
+		9D0815421A72323700FE7162 /* PTKCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardNumber.h; sourceTree = "<group>"; };
+		9D0815431A72323700FE7162 /* PTKCardNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardNumber.m; sourceTree = "<group>"; };
+		9D0815441A72323700FE7162 /* PTKCardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardType.h; sourceTree = "<group>"; };
+		9D0815451A72323700FE7162 /* PTKComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKComponent.h; sourceTree = "<group>"; };
+		9D0815461A72323700FE7162 /* PTKComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKComponent.m; sourceTree = "<group>"; };
+		9D0815471A72323700FE7162 /* PTKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKTextField.h; sourceTree = "<group>"; };
+		9D0815481A72323700FE7162 /* PTKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKTextField.m; sourceTree = "<group>"; };
+		9D0815491A72323700FE7162 /* PTKUSAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKUSAddressZip.h; sourceTree = "<group>"; };
+		9D08154A1A72323700FE7162 /* PTKUSAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKUSAddressZip.m; sourceTree = "<group>"; };
+		9D08154B1A72323700FE7162 /* PTKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKView.h; sourceTree = "<group>"; };
+		9D08154C1A72323700FE7162 /* PTKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKView.m; sourceTree = "<group>"; };
+		9D0815771A7232C100FE7162 /* ComPayStripeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComPayStripeView.h; path = Classes/ComPayStripeView.h; sourceTree = "<group>"; };
+		9D0815781A72333100FE7162 /* ComPayStripeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPayStripeView.m; path = Classes/ComPayStripeView.m; sourceTree = "<group>"; };
+		9D08157A1A7233F500FE7162 /* ComPayStripeViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPayStripeViewProxy.h; path = Classes/ComPayStripeViewProxy.h; sourceTree = "<group>"; };
+		9D08157C1A72347600FE7162 /* ComPayStripeViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPayStripeViewProxy.m; path = Classes/ComPayStripeViewProxy.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComPayStripe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComPayStripe_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComPayStripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComPayStripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComPayStripe.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* PayStripe */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = PayStripe;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D0815391A72323700FE7162 /* PaymentKit */,
+				24DE9E0F11C5FE74003F90F6 /* ComPayStripeModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComPayStripeModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComPayStripeModule.h */,
+				24DD6CF81134B3F500162E58 /* ComPayStripeModule.m */,
+				9D0815771A7232C100FE7162 /* ComPayStripeView.h */,
+				9D0815781A72333100FE7162 /* ComPayStripeView.m */,
+				9D08157A1A7233F500FE7162 /* ComPayStripeViewProxy.h */,
+				9D08157C1A72347600FE7162 /* ComPayStripeViewProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComPayStripe_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		9D0815391A72323700FE7162 /* PaymentKit */ = {
+			isa = PBXGroup;
+			children = (
+				9D08153A1A72323700FE7162 /* PTKAddressZip.h */,
+				9D08153B1A72323700FE7162 /* PTKAddressZip.m */,
+				9D08153C1A72323700FE7162 /* PTKCard.h */,
+				9D08153D1A72323700FE7162 /* PTKCard.m */,
+				9D08153E1A72323700FE7162 /* PTKCardCVC.h */,
+				9D08153F1A72323700FE7162 /* PTKCardCVC.m */,
+				9D0815401A72323700FE7162 /* PTKCardExpiry.h */,
+				9D0815411A72323700FE7162 /* PTKCardExpiry.m */,
+				9D0815421A72323700FE7162 /* PTKCardNumber.h */,
+				9D0815431A72323700FE7162 /* PTKCardNumber.m */,
+				9D0815441A72323700FE7162 /* PTKCardType.h */,
+				9D0815451A72323700FE7162 /* PTKComponent.h */,
+				9D0815461A72323700FE7162 /* PTKComponent.m */,
+				9D0815471A72323700FE7162 /* PTKTextField.h */,
+				9D0815481A72323700FE7162 /* PTKTextField.m */,
+				9D0815491A72323700FE7162 /* PTKUSAddressZip.h */,
+				9D08154A1A72323700FE7162 /* PTKUSAddressZip.m */,
+				9D08154B1A72323700FE7162 /* PTKView.h */,
+				9D08154C1A72323700FE7162 /* PTKView.m */,
+			);
+			path = PaymentKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D08156F1A72323700FE7162 /* PTKComponent.h in Headers */,
+				9D0815661A72323700FE7162 /* PTKCard.h in Headers */,
+				9D08157B1A7233F500FE7162 /* ComPayStripeViewProxy.h in Headers */,
+				9D08156A1A72323700FE7162 /* PTKCardExpiry.h in Headers */,
+				9D0815731A72323700FE7162 /* PTKUSAddressZip.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComPayStripe_Prefix.pch in Headers */,
+				9D0815641A72323700FE7162 /* PTKAddressZip.h in Headers */,
+				9D0815681A72323700FE7162 /* PTKCardCVC.h in Headers */,
+				24DD6CF91134B3F500162E58 /* ComPayStripeModule.h in Headers */,
+				9D08156E1A72323700FE7162 /* PTKCardType.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComPayStripeModuleAssets.h in Headers */,
+				9D0815751A72323700FE7162 /* PTKView.h in Headers */,
+				9D0815711A72323700FE7162 /* PTKTextField.h in Headers */,
+				9D08156C1A72323700FE7162 /* PTKCardNumber.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* PayStripe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PayStripe" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayStripe;
+			productName = PayStripe;
+			productReference = D2AAC07E0554694100DB518D /* libComPayStripe.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PayStripe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* PayStripe */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* PayStripe */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0815651A72323700FE7162 /* PTKAddressZip.m in Sources */,
+				9D08156D1A72323700FE7162 /* PTKCardNumber.m in Sources */,
+				9D0815671A72323700FE7162 /* PTKCard.m in Sources */,
+				9D0815701A72323700FE7162 /* PTKComponent.m in Sources */,
+				9D0815721A72323700FE7162 /* PTKTextField.m in Sources */,
+				9D08156B1A72323700FE7162 /* PTKCardExpiry.m in Sources */,
+				9D0815741A72323700FE7162 /* PTKUSAddressZip.m in Sources */,
+				9D08157D1A72347600FE7162 /* ComPayStripeViewProxy.m in Sources */,
+				9D0815691A72323700FE7162 /* PTKCardCVC.m in Sources */,
+				9D0815791A72333100FE7162 /* ComPayStripeView.m in Sources */,
+				9D0815761A72323700FE7162 /* PTKView.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* ComPayStripeModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComPayStripeModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* PayStripe */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComPayStripe.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComPayStripe_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComPayStripe;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ComPayStripe.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComPayStripe_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComPayStripe;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComPayStripe.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComPayStripe_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComPayStripe;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/ComPayStripe.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComPayStripe_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComPayStripe;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PayStripe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PayStripe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
