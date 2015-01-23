@@ -1,39 +1,19 @@
-// This is a test harness for your module
-// You should do something interesting in this harness
-// to test out the module and to provide instructions
-// to users on how to use it by example.
-
-
-// open a single window
-var win = Ti.UI.createWindow({
-	backgroundColor:'white'
+var CEStripeIOS = require('com.pay.stripe');
+var stripeView = CEStripeIOS.createView({
+	top : 40,
+	width : Ti.UI.FILL,
+	height : Ti.UI.FILL
 });
-var label = Ti.UI.createLabel();
-win.add(label);
+stripeView.addEventListener('cardDetails', function(e) {
+	Ti.API.debug('carNumber: ', e.carNumber);
+	Ti.API.debug('expMonth: ', e.expMonth);
+	Ti.API.debug('expYear: ', e.expYear);
+	Ti.API.debug('cvc: ', e.cvc);
+
+});
+var win = Ti.UI.createWindow({
+	backgroundColor : "#FFF"
+});
+win.add(stripeView);
 win.open();
-
-// TODO: write your module tests here
-var paystripe = require('com.pay.stripe');
-Ti.API.info("module is => " + paystripe);
-
-label.text = paystripe.example();
-
-Ti.API.info("module exampleProp is => " + paystripe.exampleProp);
-paystripe.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = paystripe.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
 

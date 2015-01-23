@@ -41,11 +41,10 @@
 - (void) paymentView:(PTKView *)paymentView withCard:(PTKCard *)card isValid:(BOOL)valid
 {
     
-    if ([self.proxy _hasListeners:@"cardIsValid"])
+    if ([self.proxy _hasListeners:@"cardDetails"])
     {
         // fire event
-        [self.proxy fireEvent:@"cardIsValid" withObject:@{
-                                                          @"value":NUMBOOL(valid),
+        [self.proxy fireEvent:@"cardDetails" withObject:@{
                                                           @"carNumber":card.number,
                                                            @"expMonth":NUMLONG(card.expMonth),
                                                            @"expYear":NUMLONG(card.expYear),
