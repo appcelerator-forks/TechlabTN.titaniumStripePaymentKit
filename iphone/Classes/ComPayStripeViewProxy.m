@@ -11,6 +11,9 @@
 
 @implementation ComPayStripeViewProxy
 
-
+-(void)createToken:(id)args
+{
+    [[self view] performSelectorOnMainThread:@selector(sendValidation:) withObject:args waitUntilDone:NO];
+}
 
 @end

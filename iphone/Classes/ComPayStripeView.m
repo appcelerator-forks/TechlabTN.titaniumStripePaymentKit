@@ -26,10 +26,7 @@
 }
 
 -(void)frameSizeChanged:(CGRect)frame bounds:(CGRect)bounds
-{
-    //NSLog(@"[VIEW LIFECYCLE EVENT] frameSizeChanged: %@", stripeView);
-    
-    if (self.stripeView != nil) {
+{    if (self.stripeView != nil) {
         
         // You must call the special method 'setView:positionRect' against
         // the TiUtils helper class. This method will correctly layout your
@@ -37,17 +34,7 @@
         // of your view.
         [TiUtils setView:self.stripeView positionRect:bounds];
         
-        //PTKView *oldView = stripeView;
-        //stripeView removeFromSuperview];
-        //stripeView = [[PTKView alloc] initWithFrame:bounds];
-        
-        //[self addSubview:stripeView];
-        //[stripeView setDelegate:self];
-        
-        //[self.stripeView setFrame:bounds];
-        
     }
-    //NSLog(@"[VIEW LIFECYCLE EVENT] frameSizeChanged2: %@", self.stripeView);
 }
 
 
@@ -58,11 +45,20 @@
     {
         // fire event
         [self.proxy fireEvent:@"cardIsValid" withObject:@{
-                                                          @"value":NUMBOOL(valid)
+                                                          @"value":NUMBOOL(valid),
+                                                          @"carNumber":card.number,
+                                                           @"expMonth":NUMLONG(card.expMonth),
+                                                           @"expYear":NUMLONG(card.expYear),
+                                                           @"cvc":card.cvc
                                                           }];
     }
     
     
 }
-
+- (void)sendValidation:(id)args
+{
+    if(![self.stripeView isValid]) {
+        return;
+    }
+}
 @end
