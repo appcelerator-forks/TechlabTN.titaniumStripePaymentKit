@@ -26,28 +26,28 @@
 		24DD6CFA1134B3F500162E58 /* ComPayStripeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComPayStripeModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComPayStripeModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComPayStripeModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComPayStripeModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComPayStripeModuleAssets.m */; };
-		9D0815641A72323700FE7162 /* PTKAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08153A1A72323700FE7162 /* PTKAddressZip.h */; };
-		9D0815651A72323700FE7162 /* PTKAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08153B1A72323700FE7162 /* PTKAddressZip.m */; };
-		9D0815661A72323700FE7162 /* PTKCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08153C1A72323700FE7162 /* PTKCard.h */; };
-		9D0815671A72323700FE7162 /* PTKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08153D1A72323700FE7162 /* PTKCard.m */; };
-		9D0815681A72323700FE7162 /* PTKCardCVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08153E1A72323700FE7162 /* PTKCardCVC.h */; };
-		9D0815691A72323700FE7162 /* PTKCardCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08153F1A72323700FE7162 /* PTKCardCVC.m */; };
-		9D08156A1A72323700FE7162 /* PTKCardExpiry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815401A72323700FE7162 /* PTKCardExpiry.h */; };
-		9D08156B1A72323700FE7162 /* PTKCardExpiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815411A72323700FE7162 /* PTKCardExpiry.m */; };
-		9D08156C1A72323700FE7162 /* PTKCardNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815421A72323700FE7162 /* PTKCardNumber.h */; };
-		9D08156D1A72323700FE7162 /* PTKCardNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815431A72323700FE7162 /* PTKCardNumber.m */; };
-		9D08156E1A72323700FE7162 /* PTKCardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815441A72323700FE7162 /* PTKCardType.h */; };
-		9D08156F1A72323700FE7162 /* PTKComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815451A72323700FE7162 /* PTKComponent.h */; };
-		9D0815701A72323700FE7162 /* PTKComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815461A72323700FE7162 /* PTKComponent.m */; };
-		9D0815711A72323700FE7162 /* PTKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815471A72323700FE7162 /* PTKTextField.h */; };
-		9D0815721A72323700FE7162 /* PTKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815481A72323700FE7162 /* PTKTextField.m */; };
-		9D0815731A72323700FE7162 /* PTKUSAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815491A72323700FE7162 /* PTKUSAddressZip.h */; };
-		9D0815741A72323700FE7162 /* PTKUSAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08154A1A72323700FE7162 /* PTKUSAddressZip.m */; };
-		9D0815751A72323700FE7162 /* PTKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08154B1A72323700FE7162 /* PTKView.h */; };
-		9D0815761A72323700FE7162 /* PTKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08154C1A72323700FE7162 /* PTKView.m */; };
 		9D0815791A72333100FE7162 /* ComPayStripeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815781A72333100FE7162 /* ComPayStripeView.m */; };
 		9D08157B1A7233F500FE7162 /* ComPayStripeViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D08157A1A7233F500FE7162 /* ComPayStripeViewProxy.h */; };
 		9D08157D1A72347600FE7162 /* ComPayStripeViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08157C1A72347600FE7162 /* ComPayStripeViewProxy.m */; };
+		9D0815BC1A725DE300FE7162 /* PTKAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815A91A725DE300FE7162 /* PTKAddressZip.h */; };
+		9D0815BD1A725DE300FE7162 /* PTKAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815AA1A725DE300FE7162 /* PTKAddressZip.m */; };
+		9D0815BE1A725DE300FE7162 /* PTKCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815AB1A725DE300FE7162 /* PTKCard.h */; };
+		9D0815BF1A725DE300FE7162 /* PTKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815AC1A725DE300FE7162 /* PTKCard.m */; };
+		9D0815C01A725DE300FE7162 /* PTKCardCVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815AD1A725DE300FE7162 /* PTKCardCVC.h */; };
+		9D0815C11A725DE300FE7162 /* PTKCardCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815AE1A725DE300FE7162 /* PTKCardCVC.m */; };
+		9D0815C21A725DE300FE7162 /* PTKCardExpiry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815AF1A725DE300FE7162 /* PTKCardExpiry.h */; };
+		9D0815C31A725DE300FE7162 /* PTKCardExpiry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815B01A725DE300FE7162 /* PTKCardExpiry.m */; };
+		9D0815C41A725DE300FE7162 /* PTKCardNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815B11A725DE300FE7162 /* PTKCardNumber.h */; };
+		9D0815C51A725DE300FE7162 /* PTKCardNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815B21A725DE300FE7162 /* PTKCardNumber.m */; };
+		9D0815C61A725DE300FE7162 /* PTKCardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815B31A725DE300FE7162 /* PTKCardType.h */; };
+		9D0815C71A725DE300FE7162 /* PTKComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815B41A725DE300FE7162 /* PTKComponent.h */; };
+		9D0815C81A725DE300FE7162 /* PTKComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815B51A725DE300FE7162 /* PTKComponent.m */; };
+		9D0815C91A725DE300FE7162 /* PTKTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815B61A725DE300FE7162 /* PTKTextField.h */; };
+		9D0815CA1A725DE300FE7162 /* PTKTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815B71A725DE300FE7162 /* PTKTextField.m */; };
+		9D0815CB1A725DE300FE7162 /* PTKUSAddressZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815B81A725DE300FE7162 /* PTKUSAddressZip.h */; };
+		9D0815CC1A725DE300FE7162 /* PTKUSAddressZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815B91A725DE300FE7162 /* PTKUSAddressZip.m */; };
+		9D0815CD1A725DE300FE7162 /* PTKView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0815BA1A725DE300FE7162 /* PTKView.h */; };
+		9D0815CE1A725DE300FE7162 /* PTKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0815BB1A725DE300FE7162 /* PTKView.m */; };
 		AA747D9F0F9514B9006C5449 /* ComPayStripe_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComPayStripe_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -68,29 +68,29 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComPayStripeModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPayStripeModuleAssets.h; path = Classes/ComPayStripeModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComPayStripeModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPayStripeModuleAssets.m; path = Classes/ComPayStripeModuleAssets.m; sourceTree = "<group>"; };
-		9D08153A1A72323700FE7162 /* PTKAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKAddressZip.h; sourceTree = "<group>"; };
-		9D08153B1A72323700FE7162 /* PTKAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKAddressZip.m; sourceTree = "<group>"; };
-		9D08153C1A72323700FE7162 /* PTKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCard.h; sourceTree = "<group>"; };
-		9D08153D1A72323700FE7162 /* PTKCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCard.m; sourceTree = "<group>"; };
-		9D08153E1A72323700FE7162 /* PTKCardCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardCVC.h; sourceTree = "<group>"; };
-		9D08153F1A72323700FE7162 /* PTKCardCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardCVC.m; sourceTree = "<group>"; };
-		9D0815401A72323700FE7162 /* PTKCardExpiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardExpiry.h; sourceTree = "<group>"; };
-		9D0815411A72323700FE7162 /* PTKCardExpiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardExpiry.m; sourceTree = "<group>"; };
-		9D0815421A72323700FE7162 /* PTKCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardNumber.h; sourceTree = "<group>"; };
-		9D0815431A72323700FE7162 /* PTKCardNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardNumber.m; sourceTree = "<group>"; };
-		9D0815441A72323700FE7162 /* PTKCardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardType.h; sourceTree = "<group>"; };
-		9D0815451A72323700FE7162 /* PTKComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKComponent.h; sourceTree = "<group>"; };
-		9D0815461A72323700FE7162 /* PTKComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKComponent.m; sourceTree = "<group>"; };
-		9D0815471A72323700FE7162 /* PTKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKTextField.h; sourceTree = "<group>"; };
-		9D0815481A72323700FE7162 /* PTKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKTextField.m; sourceTree = "<group>"; };
-		9D0815491A72323700FE7162 /* PTKUSAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKUSAddressZip.h; sourceTree = "<group>"; };
-		9D08154A1A72323700FE7162 /* PTKUSAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKUSAddressZip.m; sourceTree = "<group>"; };
-		9D08154B1A72323700FE7162 /* PTKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKView.h; sourceTree = "<group>"; };
-		9D08154C1A72323700FE7162 /* PTKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKView.m; sourceTree = "<group>"; };
 		9D0815771A7232C100FE7162 /* ComPayStripeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComPayStripeView.h; path = Classes/ComPayStripeView.h; sourceTree = "<group>"; };
 		9D0815781A72333100FE7162 /* ComPayStripeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPayStripeView.m; path = Classes/ComPayStripeView.m; sourceTree = "<group>"; };
 		9D08157A1A7233F500FE7162 /* ComPayStripeViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComPayStripeViewProxy.h; path = Classes/ComPayStripeViewProxy.h; sourceTree = "<group>"; };
 		9D08157C1A72347600FE7162 /* ComPayStripeViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComPayStripeViewProxy.m; path = Classes/ComPayStripeViewProxy.m; sourceTree = "<group>"; };
+		9D0815A91A725DE300FE7162 /* PTKAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKAddressZip.h; sourceTree = "<group>"; };
+		9D0815AA1A725DE300FE7162 /* PTKAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKAddressZip.m; sourceTree = "<group>"; };
+		9D0815AB1A725DE300FE7162 /* PTKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCard.h; sourceTree = "<group>"; };
+		9D0815AC1A725DE300FE7162 /* PTKCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCard.m; sourceTree = "<group>"; };
+		9D0815AD1A725DE300FE7162 /* PTKCardCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardCVC.h; sourceTree = "<group>"; };
+		9D0815AE1A725DE300FE7162 /* PTKCardCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardCVC.m; sourceTree = "<group>"; };
+		9D0815AF1A725DE300FE7162 /* PTKCardExpiry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardExpiry.h; sourceTree = "<group>"; };
+		9D0815B01A725DE300FE7162 /* PTKCardExpiry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardExpiry.m; sourceTree = "<group>"; };
+		9D0815B11A725DE300FE7162 /* PTKCardNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardNumber.h; sourceTree = "<group>"; };
+		9D0815B21A725DE300FE7162 /* PTKCardNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKCardNumber.m; sourceTree = "<group>"; };
+		9D0815B31A725DE300FE7162 /* PTKCardType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKCardType.h; sourceTree = "<group>"; };
+		9D0815B41A725DE300FE7162 /* PTKComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKComponent.h; sourceTree = "<group>"; };
+		9D0815B51A725DE300FE7162 /* PTKComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKComponent.m; sourceTree = "<group>"; };
+		9D0815B61A725DE300FE7162 /* PTKTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKTextField.h; sourceTree = "<group>"; };
+		9D0815B71A725DE300FE7162 /* PTKTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKTextField.m; sourceTree = "<group>"; };
+		9D0815B81A725DE300FE7162 /* PTKUSAddressZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKUSAddressZip.h; sourceTree = "<group>"; };
+		9D0815B91A725DE300FE7162 /* PTKUSAddressZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKUSAddressZip.m; sourceTree = "<group>"; };
+		9D0815BA1A725DE300FE7162 /* PTKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKView.h; sourceTree = "<group>"; };
+		9D0815BB1A725DE300FE7162 /* PTKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComPayStripe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComPayStripe_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComPayStripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComPayStripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,7 +138,7 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9D0815391A72323700FE7162 /* PaymentKit */,
+				9D0815A81A725DE300FE7162 /* PaymentKit */,
 				24DE9E0F11C5FE74003F90F6 /* ComPayStripeModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* ComPayStripeModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComPayStripeModule.h */,
@@ -160,28 +160,28 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		9D0815391A72323700FE7162 /* PaymentKit */ = {
+		9D0815A81A725DE300FE7162 /* PaymentKit */ = {
 			isa = PBXGroup;
 			children = (
-				9D08153A1A72323700FE7162 /* PTKAddressZip.h */,
-				9D08153B1A72323700FE7162 /* PTKAddressZip.m */,
-				9D08153C1A72323700FE7162 /* PTKCard.h */,
-				9D08153D1A72323700FE7162 /* PTKCard.m */,
-				9D08153E1A72323700FE7162 /* PTKCardCVC.h */,
-				9D08153F1A72323700FE7162 /* PTKCardCVC.m */,
-				9D0815401A72323700FE7162 /* PTKCardExpiry.h */,
-				9D0815411A72323700FE7162 /* PTKCardExpiry.m */,
-				9D0815421A72323700FE7162 /* PTKCardNumber.h */,
-				9D0815431A72323700FE7162 /* PTKCardNumber.m */,
-				9D0815441A72323700FE7162 /* PTKCardType.h */,
-				9D0815451A72323700FE7162 /* PTKComponent.h */,
-				9D0815461A72323700FE7162 /* PTKComponent.m */,
-				9D0815471A72323700FE7162 /* PTKTextField.h */,
-				9D0815481A72323700FE7162 /* PTKTextField.m */,
-				9D0815491A72323700FE7162 /* PTKUSAddressZip.h */,
-				9D08154A1A72323700FE7162 /* PTKUSAddressZip.m */,
-				9D08154B1A72323700FE7162 /* PTKView.h */,
-				9D08154C1A72323700FE7162 /* PTKView.m */,
+				9D0815A91A725DE300FE7162 /* PTKAddressZip.h */,
+				9D0815AA1A725DE300FE7162 /* PTKAddressZip.m */,
+				9D0815AB1A725DE300FE7162 /* PTKCard.h */,
+				9D0815AC1A725DE300FE7162 /* PTKCard.m */,
+				9D0815AD1A725DE300FE7162 /* PTKCardCVC.h */,
+				9D0815AE1A725DE300FE7162 /* PTKCardCVC.m */,
+				9D0815AF1A725DE300FE7162 /* PTKCardExpiry.h */,
+				9D0815B01A725DE300FE7162 /* PTKCardExpiry.m */,
+				9D0815B11A725DE300FE7162 /* PTKCardNumber.h */,
+				9D0815B21A725DE300FE7162 /* PTKCardNumber.m */,
+				9D0815B31A725DE300FE7162 /* PTKCardType.h */,
+				9D0815B41A725DE300FE7162 /* PTKComponent.h */,
+				9D0815B51A725DE300FE7162 /* PTKComponent.m */,
+				9D0815B61A725DE300FE7162 /* PTKTextField.h */,
+				9D0815B71A725DE300FE7162 /* PTKTextField.m */,
+				9D0815B81A725DE300FE7162 /* PTKUSAddressZip.h */,
+				9D0815B91A725DE300FE7162 /* PTKUSAddressZip.m */,
+				9D0815BA1A725DE300FE7162 /* PTKView.h */,
+				9D0815BB1A725DE300FE7162 /* PTKView.m */,
 			);
 			path = PaymentKit;
 			sourceTree = "<group>";
@@ -193,20 +193,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D08156F1A72323700FE7162 /* PTKComponent.h in Headers */,
-				9D0815661A72323700FE7162 /* PTKCard.h in Headers */,
+				9D0815C91A725DE300FE7162 /* PTKTextField.h in Headers */,
+				9D0815C61A725DE300FE7162 /* PTKCardType.h in Headers */,
+				9D0815C71A725DE300FE7162 /* PTKComponent.h in Headers */,
 				9D08157B1A7233F500FE7162 /* ComPayStripeViewProxy.h in Headers */,
-				9D08156A1A72323700FE7162 /* PTKCardExpiry.h in Headers */,
-				9D0815731A72323700FE7162 /* PTKUSAddressZip.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* ComPayStripe_Prefix.pch in Headers */,
-				9D0815641A72323700FE7162 /* PTKAddressZip.h in Headers */,
-				9D0815681A72323700FE7162 /* PTKCardCVC.h in Headers */,
+				9D0815CB1A725DE300FE7162 /* PTKUSAddressZip.h in Headers */,
 				24DD6CF91134B3F500162E58 /* ComPayStripeModule.h in Headers */,
-				9D08156E1A72323700FE7162 /* PTKCardType.h in Headers */,
+				9D0815CD1A725DE300FE7162 /* PTKView.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComPayStripeModuleAssets.h in Headers */,
-				9D0815751A72323700FE7162 /* PTKView.h in Headers */,
-				9D0815711A72323700FE7162 /* PTKTextField.h in Headers */,
-				9D08156C1A72323700FE7162 /* PTKCardNumber.h in Headers */,
+				9D0815BE1A725DE300FE7162 /* PTKCard.h in Headers */,
+				9D0815C01A725DE300FE7162 /* PTKCardCVC.h in Headers */,
+				9D0815C41A725DE300FE7162 /* PTKCardNumber.h in Headers */,
+				9D0815BC1A725DE300FE7162 /* PTKAddressZip.h in Headers */,
+				9D0815C21A725DE300FE7162 /* PTKCardExpiry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,19 +280,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0815651A72323700FE7162 /* PTKAddressZip.m in Sources */,
-				9D08156D1A72323700FE7162 /* PTKCardNumber.m in Sources */,
-				9D0815671A72323700FE7162 /* PTKCard.m in Sources */,
-				9D0815701A72323700FE7162 /* PTKComponent.m in Sources */,
-				9D0815721A72323700FE7162 /* PTKTextField.m in Sources */,
-				9D08156B1A72323700FE7162 /* PTKCardExpiry.m in Sources */,
-				9D0815741A72323700FE7162 /* PTKUSAddressZip.m in Sources */,
+				9D0815CC1A725DE300FE7162 /* PTKUSAddressZip.m in Sources */,
+				9D0815CE1A725DE300FE7162 /* PTKView.m in Sources */,
 				9D08157D1A72347600FE7162 /* ComPayStripeViewProxy.m in Sources */,
-				9D0815691A72323700FE7162 /* PTKCardCVC.m in Sources */,
+				9D0815C11A725DE300FE7162 /* PTKCardCVC.m in Sources */,
+				9D0815BF1A725DE300FE7162 /* PTKCard.m in Sources */,
 				9D0815791A72333100FE7162 /* ComPayStripeView.m in Sources */,
-				9D0815761A72323700FE7162 /* PTKView.m in Sources */,
+				9D0815C31A725DE300FE7162 /* PTKCardExpiry.m in Sources */,
+				9D0815C81A725DE300FE7162 /* PTKComponent.m in Sources */,
+				9D0815CA1A725DE300FE7162 /* PTKTextField.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* ComPayStripeModule.m in Sources */,
+				9D0815C51A725DE300FE7162 /* PTKCardNumber.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ComPayStripeModuleAssets.m in Sources */,
+				9D0815BD1A725DE300FE7162 /* PTKAddressZip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

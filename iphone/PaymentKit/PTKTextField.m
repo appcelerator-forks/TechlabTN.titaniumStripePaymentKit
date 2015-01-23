@@ -30,8 +30,6 @@
 - (void)dealloc
 {
     [self removeObserver:self forKeyPath:@"text"];
-    
-    [super dealloc];
 }
 
 - (void)drawPlaceholderInRect:(CGRect)rect

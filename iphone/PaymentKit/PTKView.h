@@ -31,13 +31,13 @@
 @property (nonatomic, readonly) PTKCardCVC *cardCVC;
 @property (nonatomic, readonly) PTKAddressZip *addressZip;
 
-@property (nonatomic, retain) IBOutlet UIView *innerView;
-@property (nonatomic, retain) IBOutlet UIView *clipView;
-@property (nonatomic, retain) IBOutlet PTKTextField *cardNumberField;
-@property (nonatomic, retain) IBOutlet PTKTextField *cardExpiryField;
-@property (nonatomic, retain) IBOutlet PTKTextField *cardCVCField;
-@property (nonatomic, retain) IBOutlet UIImageView *placeholderView;
-@property (nonatomic,retain) id <PTKViewDelegate> delegate;
+@property IBOutlet UIView *innerView;
+@property IBOutlet UIView *clipView;
+@property IBOutlet PTKTextField *cardNumberField;
+@property IBOutlet PTKTextField *cardExpiryField;
+@property IBOutlet PTKTextField *cardCVCField;
+@property IBOutlet UIImageView *placeholderView;
+@property (nonatomic) id <PTKViewDelegate> delegate;
 @property (readonly) PTKCard *card;
 
 @end

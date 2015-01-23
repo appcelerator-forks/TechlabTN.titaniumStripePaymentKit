@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C8D8954C-BED7-4374-B1A5-5D875FFF9DE2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PayStripe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>58EB7DF003942228AF8D6CF4E6C04F41A4E99F1B</key>
+		<string>https://github.com/LHIOUI/stripeTitanium.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iphone/PayStripe.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>58EB7DF003942228AF8D6CF4E6C04F41A4E99F1B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LHIOUI/stripeTitanium.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>58EB7DF003942228AF8D6CF4E6C04F41A4E99F1B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>58EB7DF003942228AF8D6CF4E6C04F41A4E99F1B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PayStripe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
