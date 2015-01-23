@@ -44,12 +44,15 @@
     if ([self.proxy _hasListeners:@"cardDetails"])
     {
         // fire event
-        [self.proxy fireEvent:@"cardDetails" withObject:@{
-                                                          @"carNumber":card.number,
+        if(valid)
+        {
+            [self.proxy fireEvent:@"cardDetails" withObject:@{
+                                                           @"carNumber":card.number,
                                                            @"expMonth":NUMLONG(card.expMonth),
                                                            @"expYear":NUMLONG(card.expYear),
                                                            @"cvc":card.cvc
-                                                          }];
+                                                            }];
+        }
     }
     
     
